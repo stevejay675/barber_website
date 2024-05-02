@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.container1{
+    width: 40%;
+    border-right: 1px solid #cf4015;
+    height: 100vh;
+    background-image: url('Screenshot\ 2024-05-01\ 030335.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+
+.container2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: url("The-best-barbers-in-Camberwell.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.container2 h3{
+    color: #cf4015;
+    font-size: 22px;
+}
+
+.container label{
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.container2 form input{
+    width: 60%;
+    padding: 8px;
+    border: transparent;
+    outline: none;
+    border-radius: 20px;
+}
+
+.container2 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.darken{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+.submit{
+    background-color: #cf4015;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+@media screen  and (max-width: 800px){
+    .container1{
+        display: none;
+    }
+
+    .container2{
+        width: 100%;
+    }
+}
